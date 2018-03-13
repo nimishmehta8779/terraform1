@@ -1,5 +1,5 @@
 # Create a virtual network in the web_servers resource group
-# This is a test fil
+# This is a test file
 resource "azurerm_virtual_network" "NMNetwork" {
   name                = "NMNetwork"
   address_space       = ["172.25.0.0/16"]
